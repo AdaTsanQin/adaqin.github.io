@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ada Qin | Research & Projects</title>
+  <meta name="description" content="Ada Qin — undergraduate researcher in theoretical computer science, logic, and computation." />
+  <meta property="og:title" content="Ada Qin | Research & Projects" />
+  <meta property="og:description" content="Undergraduate researcher in theoretical computer science: automata, logic, type systems, and computation." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#7f1d1d" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fdfdfd; --muted:#4b5563; --text:#111827; --accent:#7f1d1d; --accent-2:#991b1b;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--accent);text-decoration:none} a:hover{color:var(--accent-2)}
+    header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid #e5e7eb;z-index:10}
+    nav{max-width:900px;margin:auto;display:flex;align-items:center;gap:18px;padding:12px 20px}
+    nav .brand{font-weight:600;color:var(--accent)}
+    nav .sp{flex:1}
+    nav a{color:var(--text);opacity:.85;font-weight:500}
+    nav a:hover{opacity:1}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:6px;background:var(--accent);color:white;font-weight:500}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 20px}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center;margin:32px 0}
+    h1{font-size: clamp(28px,4vw,42px);margin:6px 0 6px 0;color:var(--accent)}
+    .subtitle{color:var(--muted);font-size:1.05rem}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{background:#fee2e2;color:#7f1d1d;padding:5px 10px;border-radius:999px;font-size:.84rem}
+    .grid{display:grid;gap:16px}
+    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    section{margin:40px 0}
+    h2{font-size:clamp(20px,2.4vw,26px);margin:0 0 14px;color:var(--accent)}
+    h3{margin:0 0 8px;font-size:1.02rem;color:var(--accent-2)}
+    .list{display:grid;gap:10px;font-size:.96rem;color:var(--text)}
+    figure{margin:0}
+    figure img{width:100%;height:auto;border-radius:8px;border:1px solid #e5e7eb}
+    figcaption{color:var(--muted);font-size:.85rem;margin-top:6px}
+    footer{border-top:1px solid #e5e7eb;padding:20px 0 40px;color:var(--muted);font-size:.9rem;text-align:center}
+    @media (max-width:780px){.hero{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Primary">
+      <div class="brand">Ada Qin</div>
+      <div class="sp"></div>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h1>Hello, I’m Ada.</h1>
+        <p class="subtitle">Undergraduate researcher interested in <strong>theoretical computer science</strong>, including automata, logic, type systems, and computational models.</p>
+        <div class="chips">
+          <span class="chip">Automata</span>
+          <span class="chip">Logic</span>
+          <span class="chip">Type systems</span>
+          <span class="chip">Functional programming</span>
+          <span class="chip">Teaching</span>
+        </div>
+        <p style="margin-top:14px">
+          <a class="btn" href="assets/Ada_Qin_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+        </p>
+      </div>
+      <div>
+        <figure>
+          <img src="oral_present.jpg" alt="Visualization or research-related graphic" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="grid grid-2">
+        <article>
+          <h3>Quaternion Rotation &amp; Gimbal Lock Avoidance</h3>
+          <ul class="list">
+          <li>Participated in CIS Summer Research Program under Prof. Ilesanmi Adeboye.</li>
+          <li>Proved lemmas related to the Cayley–Dickson construction (norm preservation, associativity, alternativity).</li>
+          <li>Built a Python-based 3D rotation model comparing quaternions and Euler angles to demonstrate gimbal lock avoidance.</li>
+          <li>Presented results through a poster session and an optional oral presentation at the CIS Summer Research Symposium.</li>
+          </ul>
+          </article>
+      <article>
+      <h3>Logic, Automata, and Computation</h3>
+      <ul class="list">
+      <li>Exploring automata theory and the construction of Turing machines.</li>
+      <li>Studying logical proof systems, lambda calculus, and type inference with unification.</li>
+      <li>Interested in algebraic structures and their computational applications.</li>
+      </ul>
+      </article>
+      </div>
+      </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid grid-2">
+        <article>
+          <h3>WesDash — Mobile Delivery App Prototype</h3>
+          <p class="muted">COMP333 Software Engineering • Team of 3</p>
+          <ul class="list">
+            <li>Coordinated workflow, organized meetings, and ensured milestone progress.</li>
+            <li>Implemented UI in HTML/CSS/JavaScript; backend APIs in PHP with MySQL.</li>
+            <li>Standardized GitHub structure, resolved merge conflicts, and authored deployment docs.</li>
+          </ul>
+          <p><a href="https://github.com/AdaTsanQin/COMP333" target="_blank" rel="noopener">GitHub Repository →</a></p>
+        </article>
+        <article>
+          <h3>SML Logic Calculators</h3>
+          <p class="muted">COMP325 • Spring 2025</p>
+          <ul class="list">
+            <li>LK proof system calculator for sequent derivations.</li>
+            <li>Lambda calculus calculator with substitution and reduction.</li>
+            <li>Type inference calculator using unification for polymorphic types.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Turing Machine — Natural Number Generator</h3>
+          <p class="muted">COMP301 • Fall 2024</p>
+          <ul class="list">
+            <li>Designed a TM with simplified epsilon transitions to generate ℕ sequences.</li>
+            <li>Implemented and tested within a browser-based simulation platform.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <div class="grid grid-2">
+        <article>
+          <h3>Teaching Assistant — MATH123F</h3>
+          <p class="muted">Mathematical Deduction with Calculus • Fall 2025</p>
+          <ul class="list">
+            <li>Led weekly tutoring; graded assignments; compiled FAQs to inform course improvements.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Volunteer Math &amp; PE Teacher</h3>
+          <p class="muted">Yao Shang Central Primary School, Hebei • Jun–Jul 2024</p>
+          <ul class="list">
+            <li>Designed lessons on binary numbers, prisoner’s dilemma, and introductory topology for grades 4–5.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:aqin@wesleyan.edu">aqin@wesleyan.edu</a> · GitHub: <a href="https://github.com/AdaTsanQin" target="_blank" rel="noopener">AdaTsanQin</a></p>
+    </section>
+
+    <footer class="wrap">
+      <div>© <span id="year"></span> Ada Qin</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
